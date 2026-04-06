@@ -1,16 +1,71 @@
-# React + Vite
+# Imandi Senarath - Professional Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and high-performance portfolio website built with **React**, **Vite**, and **Vanilla CSS**. This project showcases academic research, technical projects, and professional skills with a focus on Software QA, Database Administration, and Business Analysis.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+Check out the live website here: [https://imandisenarath.github.io/Portfolio-website](https://imandisenarath.github.io/Portfolio-website)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **Modern UI/UX**: 
+    - Sleek "Glassmorphism" design with interactive hover effects.
+    - Smooth scroll navigation and dynamic animations.
+    - Fully responsive layout for all device sizes.
+- **Dynamic Hero Section**: 
+    - Quick access to the **Download CV** feature.
+    - Prominent call-to-action buttons for projects and contact.
+- **Comprehensive Skills Grid**: 
+    - Categorized technical skills (Frontend, Backend, Databases, and Tools).
+    - Dedicated "Other" section for soft skills like Requirement Gathering and Process Modelling.
+- **Research & Publications**: 
+    - Integrated "Research" section showcasing case studies and research activities.
+- **AJAX Contact Form**: 
+    - Seamless background submission using **Formspree** (No page redirects).
+    - Real-time user feedback with a custom animated "Thank You" message.
+- **Performance & Analytics**: 
+    - **Google Analytics 4 (GA4)** integration for detailed visitor insights.
+    - Optimized build using **Vite** for lightning-fast load times.
+- **Automated Deployment**: 
+    - Integrated **gh-pages** workflow for easy one-command deployments.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Built With
 
-## Expanding the ESLint configuration
+- **React 19**: Modern UI component architecture.
+- **Vite 8**: Next-generation frontend tooling for fast development.
+- **Lucide-React**: Beautiful, lightweight SVG icons.
+- **Vanilla CSS**: Custom styling for maximum flexibility and control.
+- **Deployment**: Hosted on **GitHub Pages**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Getting Started
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) installed on your machine.
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ImandiSenarath/Portfolio-website.git
+   ```
+2. Navigate into the project directory:
+   ```bash
+   cd Portfolio-website
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Development
+To run the development server locally:
+```bash
+npm run dev
+```
+
+### Deployment
+To build and deploy the project to GitHub Pages:
+```bash
+npm run deploy
+```
+
+---
+*Created with care by Imandi Senarath*

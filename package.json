@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://imandisenarath.github.io/Portfolio-website",
+  "homepage": "https://imandisenarath.github.io/Imandi_Senarath",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layout, Server, Database, Wrench } from 'lucide-react';
+import { Layout, Server, Database, Wrench, ClipboardCheck } from 'lucide-react';
 import './Skills.css';
 
 const Skills = () => {
@@ -7,22 +7,31 @@ const Skills = () => {
     {
       title: 'Frontend',
       icon: <Layout size={24} className="skill-icon" />,
-      skills: ['ReactJS', 'Flutter', 'HTML', 'CSS']
+      skills: ['ReactJS', 'HTML', 'CSS', 'C#', 'Java']
     },
     {
       title: 'Backend',
       icon: <Server size={24} className="skill-icon" />,
-      skills: ['ASP.NET Core', 'Node.js', 'FastAPI']
+      skills: ['Python', 'Django', 'Node.js', 'Express.js', 'REST APIs', 'Firebase']
     },
     {
       title: 'Databases',
       icon: <Database size={24} className="skill-icon" />,
-      skills: ['PostgreSQL', 'MySQL', 'MSSQL', 'Neo4j']
+      skills: ['Supabase (PostgreSQL)', 'MSSQL', 'MySQL']
     },
     {
-      title: 'Tools & Tech',
+      title: 'Tools',
       icon: <Wrench size={24} className="skill-icon" />,
-      skills: ['Git', 'GitHub', 'Docker', 'Azure', 'Postman', 'VS Code']
+      skills: ['Git', 'GitHub', 'Postman', 'VS Code', 'Android Studio', 'Wireshark']
+    },
+    {
+      title: 'Other',
+      icon: <ClipboardCheck size={24} className="skill-icon" />,
+      skills: [
+        'Problem Solving', 'Technical Documentation', 'Team Collaboration', 
+        'Requirement Gathering & Analysis', 'Use Case & User Story Creation', 
+        'Process Modelling (UML, Flowcharts)', 'Data Analysis & Visualization'
+      ]
     }
   ];
 

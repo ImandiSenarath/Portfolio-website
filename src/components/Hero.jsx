@@ -1,6 +1,7 @@
 import React from 'react';
-import { ArrowRight, Mail } from 'lucide-react';
+import { ArrowRight, Mail, Download } from 'lucide-react';
 import './Hero.css';
+import cvFile from '../pdf/Imandi_Senarath.pdf';
 
 const Hero = () => {
   return (
@@ -15,14 +16,15 @@ const Hero = () => {
         <h1 className="hero-title">
           Imandi <span>Senarath</span>
         </h1>
-        <h3 className="hero-role">Undergraduate |Resrearcher| Networking & Database Systems Enthusiast</h3>
-        <p className="hero-tagline">
-          Building scalable systems and exploring distributed technologies
-        </p>
+        <h3 className="hero-role">Final Year Undergraduate | Researcher</h3>
+
 
         <div className="hero-cta">
           <a href="#projects" className="btn btn-primary">
             View Projects <ArrowRight size={20} />
+          </a>
+          <a href={cvFile} download="Imandi_Senarath_CV.pdf" className="btn btn-secondary">
+            Download CV <Download size={20} />
           </a>
           <a href="#contact" className="btn btn-secondary">
             Contact Me <Mail size={20} />

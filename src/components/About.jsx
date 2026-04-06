@@ -1,8 +1,10 @@
 import React from 'react';
-import { ShieldCheck, Database, BarChart3, Network } from 'lucide-react';
+import { ShieldCheck, Database, BarChart3, Network, Download } from 'lucide-react';
 import './About.css';
+import cvFile from '../pdf/Imandi_Senarath.pdf';
 
 const About = () => {
+  // ... (keeping interests array unchanged)
   const interests = [
     {
       title: 'Software QA',
@@ -36,6 +38,7 @@ const About = () => {
             <p>
               I am a motivated undergraduate with a strong interest in Software Quality Assurance (QA), Database Administration (DBA), Business Analysis (BA), and Computer Networking. I am passionate about ensuring system reliability, optimizing data management, and aligning technical solutions with business needs. I have developed a solid foundation in software development, databases, and networking through my academic studies. I am detail-oriented, a quick learner, and committed to continuous improvement. I am currently seeking an internship opportunity to gain hands-on experience and contribute to real-world projects, with the goal of becoming a versatile IT professional delivering high-quality solutions.
             </p>
+
 
           </div>
 

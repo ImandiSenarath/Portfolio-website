@@ -6,19 +6,35 @@ import { FiGithub } from 'react-icons/fi';
 const Projects = () => {
   const projects = [
     {
-      title: 'Distributed Calculator',
-      description: 'A distributed computing application designed to perform complex operations across multiple nodes effectively.',
-      tech: ['Java', 'RMI', 'Sockets'],
-      github: '#',
+      title: 'Expense Tracker',
+      description: 'A comprehensive ASP.NET Core MVC application for personal finance management. Features include user authentication, expense tracking with CRUD operations, advanced filtering, and a dynamic dashboard with spending analytics charts.',
+      tech: ['C#', 'ASP.NET Core MVC', 'EF Core', 'SQL Server', 'Bootstrap', 'Chart.js'],
+      github: 'https://github.com/ImandiSenarath/personal-expense-tacker.git',
       link: '',
       images: [],
     },
     {
-      title: 'Crop Prediction System',
-      description: 'Machine learning based system to predict the most suitable crop for specific soil and weather conditions.',
-      tech: ['Python', 'Scikit-Learn', 'Flask'],
-      github: '#',
+      title: 'To-Do List Application',
+      description: 'A full-stack task management system featuring a React-based frontend and a Node.js/Express backend. Implements RESTful APIs and MySQL for persistent data storage, following the MVC architecture pattern.',
+      tech: ['React', 'Node.js', 'Express.js', 'MySQL', 'JavaScript'],
+      github: 'https://github.com/ImandiSenarath/TodoList_webapp.git',
       link: '',
+      images: [],
+    },
+    {
+      title: 'Network Traffic Analyzer',
+      description: 'A Python-based tool designed for deep packet inspection and network analysis. It performs protocol analysis (TCP, UDP, DNS, TLS), detects suspicious traffic patterns, and generates visual reports using Matplotlib.',
+      tech: ['Python', 'PyShark', 'Wireshark', 'Matplotlib'],
+      github: 'https://github.com/ImandiSenarath/Network-Traffic-Analyzer.git',
+      link: '',
+      images: [],
+    },
+    {
+      title: 'Bodhiraja Preschool Management System',
+      description: 'A specialized management portal for Bodhiraja Preschool, streamlining administrative tasks and enhancing educational management through a web-based interface.',
+      tech: ['React', 'Vite', 'CSS'],
+      github: '',
+      link: 'https://bodhirajapreschool.vercel.app/',
       images: [],
     }
   ];
